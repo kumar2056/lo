@@ -6,15 +6,15 @@ int main() {
 	cin>>a;
 	if((a%400==0)||(a%4==0))
 	{
-		cout<<"leap year"<<a;
+		cout<<"yes";
 	}
 	else if(a%100==0)
 	{
-		cout<<"not a leap year"<<a;
+		cout<<"no";
 	}
 	else
 	{
-		cout<<"not a leap year"<<a;
+		cout<<"no";
 	}
 	// your code goes here
 	return 0;
